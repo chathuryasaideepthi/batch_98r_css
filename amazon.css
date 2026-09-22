@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.back1{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.first{
+    height: 30vh;
+    width: 30vw;
+    background-color: rgb(239, 236, 233);
+    background-image: url('https://m.media-amazon.com/images/I/712SuRmHG4L._AC_AIweblab1378949,T3_FMavif_SF516.0,327.0_PQ65_.jpg?aicid=productui-image-1');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-sizing: border-box;
+   
+
+}
+
+.product{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    align-items: center;
+    border: 1px solid rgb(151, 144, 130);
+    padding: 10px;
+}
+.details {
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+}
+
+.details h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rating {
+    color: #e47911;
+}
+
+.price {
+    font-size: 32px;
+}
+
+
+button {
+    width: 335px;
+    padding: 10px;
+    border: none;
+    border-radius: 18px;
+    background-color: #ffd21c;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.second{
+    height: 30vh;
+    width: 30vw;
+    background-color: rgb(239, 236, 233);
+    background-image: url('https://m.media-amazon.com/images/I/51RK1P+gg6L._AC_AIweblab1378949,T3_FMavif_SF516.0,327.0_PQ65_.jpg?aicid=productui-image-1');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-sizing: border-box;
+}
+.third{
+    height: 30vh;
+    width: 30vw;
+    background-color: rgb(239, 236, 233);
+    background-image: url('https://m.media-amazon.com/images/I/610lbucItmL._AC_AIweblab1378949,T3_FMavif_SF516.0,327.0_PQ65_.jpg?aicid=productui-image-1');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-sizing: border-box;
+}
+.first:hover{
+    transform: scale(2);
+}
+.second:hover{
+    transform: scale(2);
+}
+.third:hover{
+    transform: scale(2);
+}
