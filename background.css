@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.back{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://img.magnific.com/free-photo/abstract-soft-pastel-colorful-background_306501-871.jpg?semt=ais_hybrid&w=740&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.first {
+    height: 200px;
+    width: 200px;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaT7j_SbLbNJCRIza4fRRunip-ib8kHBq9rwY_BdpnTg&s=10");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.second {
+    height: 200px;
+    width: 200px;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhdMdTjYKA1OergxKAaHmTswyl0OFwDhyblTsoN0wxQ&s=10");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top:0px;
+    left: 300px;
+
+}
+.third{
+     height: 200px;
+    width: 200px;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBolofVxx9ObOczh2IUhPdpFcIfHY_4L0b1WDbHPpn-Q&s=10");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top:0px;
+    right: 0px;
+
+}
+.four{
+     height: 200px;
+    width: 200px;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDFcWLBOYcLXEHv8lkQBw9f1UOQgFSXtIpGejD4v-0Jw&s=10");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left:600px;
+    right: 0px;
+    bottom: 600px;
+
+}
+.five{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW4Lfcw3rGnF2p_hmRIvC5FlUutcSmPzLrWO7tttTDwA&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: -400px;
+    left: 600px;
+    right: 0px;
+    bottom: 100px;
+   
+    
+}
